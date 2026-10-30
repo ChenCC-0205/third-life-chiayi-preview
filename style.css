@@ -44,3 +44,9 @@ header .brand.header-logo>img{display:block;width:100%;height:auto;max-height:94
 .banner-cta:hover{box-shadow:0 0 0 3px #ffffffa0}.banner-cta:focus-visible{outline:3px solid #ffb900;outline-offset:2px}
 .health-slide .banner-cta{left:4.3%;top:78%;width:21%;height:15%}
 @media(max-width:700px){.hero.approved-carousel{aspect-ratio:2 / 1;min-height:0}.approved-carousel .carousel-arrow{width:28px;height:28px;top:51%;background:#ffffffa8}.approved-carousel .carousel-arrow .icon{width:17px;height:17px}.approved-carousel .prev{left:3px}.approved-carousel .next{right:3px}.approved-carousel .carousel-controls{bottom:3px;padding:0 5px}.approved-carousel .dot{width:22px;height:24px}.approved-carousel .dot:before{width:7px;height:7px}.approved-carousel .pause{width:24px;height:24px}.intro-slide .banner-cta{left:4.6%;top:75%;width:35%;height:15%}.health-slide .banner-cta{left:4%;top:70%;width:32%;height:15%}}
+
+/* 2026-10-30 supplied 2048x768 approved artwork: same complete image on all screens. */
+.hero.approved-carousel{aspect-ratio:8 / 3;background:#fff}
+.approved-carousel .scene{background:#fff}
+.approved-carousel .story-slide .banner-cta{left:32.5%;top:48.5%;width:17.5%;height:10%;min-height:24px;min-width:50px;border-radius:40px}
+@media(max-width:700px){.hero.approved-carousel{aspect-ratio:8 / 3;min-height:0}.approved-carousel .story-slide .banner-cta{left:32.5%;top:48.5%;width:17.5%;height:10%}}
